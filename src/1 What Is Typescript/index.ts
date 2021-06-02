@@ -9,7 +9,7 @@ export function tester() {
    * dependencies that would be affected and will alert you of something that
    * could break.
    */
-  const four = multiply(2, 'two');
+  const four = multiply(2, 'two'); // <-- mistake!
 
   /**
    * TypeScript also accelerates development by providing inline documentation
